@@ -7,3 +7,5 @@ __pycache__/
 *.sqlite3
 data/output/
 .env
+
+data/benchmark/
