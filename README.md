@@ -418,5 +418,6 @@ See docs/ for testing and benchmark evidence.
 - Do not commit local SQLite databases.
 - Generated benchmark data is excluded from Git.
 - Submit through a public GitHub repository.
-- Provide repository access only to authorized evaluators.
+- Share the public repository URL with hackathon evaluators.
+
 
