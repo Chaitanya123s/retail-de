@@ -417,5 +417,6 @@ See docs/ for testing and benchmark evidence.
 - Do not commit credentials or secrets.
 - Do not commit local SQLite databases.
 - Generated benchmark data is excluded from Git.
-- Submit through a private Git repository.
+- Submit through a public GitHub repository.
 - Provide repository access only to authorized evaluators.
+
