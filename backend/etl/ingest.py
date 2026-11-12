@@ -84,6 +84,9 @@ def ingest_sales_file(file_path: str | Path) -> dict:
             f"Missing required columns: {missing_columns}"
         )
 
+    # Ignore unexpected columns after recording them.
+    df = df[EXPECTED_SALES_COLUMNS].copy()
+
     return {
         "dataframe": df,
         "checksum": checksum,
